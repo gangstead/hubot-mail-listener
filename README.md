@@ -5,6 +5,8 @@ unread or incoming new emails (sender, subject, date, text message).
 
 Message is put in as a slack message attachment
 
+![demo](https://raw.githubusercontent.com/gangstead/hubot-mail-listener/master/demo.png)
+
 ## Installation
 
 Edit the `package.json` for your hubot and add the hubot-mail-listener
