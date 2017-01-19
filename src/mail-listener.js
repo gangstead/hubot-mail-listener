@@ -13,7 +13,7 @@ const config = {
   tls: _.get(process.env, 'HUBOT_MAIL_LISTENER_SECURE', true),
   tlsOptions: { rejectUnauthorized: false },
   mailbox: process.env.HUBOT_MAIL_LISTENER_MAILBOX || 'INBOX',
-  searchFilter: (process.env.HUBOT_MAIL_NOTIFIER_SEARCH_FILTER || '').split(','),
+  searchFilter: (process.env.HUBOT_MAIL_LISTENER_SEARCH_FILTER || '').split(','),
   markSeen: _.get(process.env, 'HUBOT_MAIL_LISTENER_MARK_SEEN', true),
   fetchUnreadOnStart: process.env.HUBOT_MAIL_LISTENER_FETCH_UNREAD
 };
