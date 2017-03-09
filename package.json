@@ -1,6 +1,6 @@
 {
   "name": "hubot-mail-listener",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Gangstead <steven@gangstead.com>",
   "description": "A mail listener plugin for hubot",
   "main": "./src/mail-listener",
